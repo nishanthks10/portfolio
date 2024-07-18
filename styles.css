@@ -10,7 +10,6 @@
   transition: 0.2s linear;
 }
 
-/* css variables */
 :root {
   --white: #fff;
   --dark-gray: #ababab;
@@ -48,7 +47,6 @@ section {
   padding: 5rem 9%;
 }
 
-/* home */
 .home {
   height: 100vh;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/my-image.jpg');
@@ -82,9 +80,7 @@ section {
   text-transform: uppercase;
   letter-spacing: 0.3rem;
 }
-/* home */
 
-/* header */
 .header {
   position: fixed;
   top: 0;
@@ -133,10 +129,7 @@ section {
 .header.active .menu {
   color: var(--dark-bg);
 }
-/* header */
 
-/* portfolio */
-/* utility class */
 .heading {
   color: var(--white);
   font-size: 3rem;
@@ -148,7 +141,6 @@ section {
 .heading span {
   font-weight: 700;
 }
-/* utility class */
 
 .portfolio .box-container .box .image {
   height: 30rem;
@@ -201,11 +193,8 @@ section {
 .portfolio .box-container .box:hover .image .content {
   transform: translateY(0);
 }
-/* portfolio */
-/* add scrollbar */
-/* fix header */
 
-/* resume */
+
 .resume .col .box {
   background-color: var(--light-bg);
   padding: 2.5rem;
@@ -257,9 +246,8 @@ section {
   color: var(--light-gray);
   text-transform: capitalize;
 }
-/* resume */
 
-/* about */
+
 .about .box-container .box .image {
   height: 100%;
   overflow: hidden;
@@ -286,7 +274,6 @@ section {
   text-transform: none;
 }
 
-/* utlity class */
 .btn {
   background-color: var(--yellow);
   font-size: 1.7rem;
@@ -298,10 +285,8 @@ section {
   display: inline-block;
   margin-top: 1rem;
 }
-/* utlity class */
-/* about */
 
-/* clients */
+
 .clients .box-container .box .image {
   width: 10rem;
   height: 12rem;
@@ -352,9 +337,8 @@ section {
   color: var(--yellow);
   font-style: normal;
 }
-/* clients */
 
-/* services */
+
 .services .box-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
@@ -403,9 +387,8 @@ section {
 .services .box-container .box .btn-2:hover i {
   padding-left: 1.5rem;
 }
-/* services */
 
-/* blogs */
+
 .blogs .box-container .box .image {
   height: 30rem;
   overflow: hidden;
@@ -459,9 +442,7 @@ section {
   color: var(--yellow);
   cursor: pointer;
 }
-/* blogs */
 
-/* contact */
 .contact .col-container {
   grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
   gap: 6rem;
@@ -502,9 +483,8 @@ section {
   color: var(--dark-gray);
   letter-spacing: 0.1rem;
 }
-/* contact */
 
-/* footer */
+
 .footer {
   border-top: 0.2rem solid var(--light-bg);
   text-align: center;
@@ -525,9 +505,7 @@ section {
   color: var(--dark-gray);
   margin-top: 3rem;
 }
-/* footer */
 
-/* media queries */
 @media (max-width: 1200px) {
   .header {
     padding: 3rem 2rem;
@@ -586,4 +564,3 @@ section {
     font-size: 6rem;
   }
 }
-/* media queries */
